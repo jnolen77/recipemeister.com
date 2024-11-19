@@ -324,7 +324,6 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
     max-width: 1200px; /* Limit max width for readability */
     gap: 20px; /* Space between columns */
     margin: 0 20px; /* Margins on the sides for smaller screens */
