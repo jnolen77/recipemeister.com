@@ -29,17 +29,17 @@ $keywords = "page1, example, template";
 
 <section class="page">
     <div class="page-content">
-        <div class="col-12 col-md-6 text-content">
+        <div class="col-6 text-content">
             <h2>Feel free to contact Us for more information! We'd love to hear from you!</h2>
-            <p><p>Join chefs Jeremy and Jessica Nolen on an unforgettable culinary adventure through 
+            <p>Join chefs Jeremy and Jessica Nolen on an unforgettable culinary adventure through 
                     the heart of Bavaria and Franconia with Savor Germany's exclusive food and beer tour. 
                     Explore the rich traditions of Munich, Nuremberg, and Bamberg as you indulge in regional 
                     specialties and sip world-renowned beers in the cities that perfected them. From the vibrant 
                     beer halls of Munich to the historic breweries of Bamberg, this tour offers a delicious journey 
                     through Germany's most iconic culinary landscapes, all while learning insider tips from two expert 
-                    chefs with deep ties to the region.</p></p>
+                    chefs with deep ties to the region.</p>
         </div>
-        <div class="col-12 col-md-6 image-content">
+        <div class="col-6 image-content">
             <img src="/assets/images/ramps2.jpg" alt="Ramps" class="responsive-img" style="width: 400px;">
         </div>
     </div>
