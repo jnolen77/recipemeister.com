@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Germany Culinary Vacations</title>
+        <!--ANIMATE CSS LINK (REQUIRED)-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+        <link rel="stylesheet" href="assets/css/styles.css">
+    </head>
+    <body>
+        <header>
+            <a href="#" class="logo">Germany Culinary Vacations</a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">2025 Tours</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+    <section class="banner"></section>
+        <script type="text/javascript">
+            window.addEventListener("scroll", function(){
+                var header = document.querySelector("header");
+                header.classList.toggle("sticky", window.scrollY > 0)
+            })
+        </script>
+
+        <section class="sec1 animate__animated wow animate__zoomIn" >
+            <h1 class="sec1 animate__animated wow animate__fadeInDown" data-wow-delay="1s" >Willkommen to Germany Culinary Vacations!</h1>
+        </section>
+
+
+        <section class="sec2 animate__animated wow animate__fadeInUp" data-wow-offset="150" >
+            <p class="animate__animated wow animate__fadeInUp" data-wow-delay="1s">Join us in our culinary adventures in Germany. We offer vacation packages
+                mostly in the southern part of Germany - focusing on Bavaria and the Black Forest region. As chefs we love to eat when we travel. From Michelin starred restaurants to roadside stands and 
+                beer halls - we're sure you'll love it! We extensively research restaurants, breweries, farmer's markets, vineyards, and more to curate an amazing 
+                selection for our trips. </p>
+        </section>
+        <section class="sec3 animate__animated wow animate__fadeInUp animate__delay-1s">
+            <div><img class="alpine animate__animated wow animate__slideInLeft animate__delay-1s" width="650" height="475" id="cheese" src="germany_photos/alpine_cheese.jpg" alt="A Castle in Germany"></div>
+            <div><p class="alpineText animate_animated wow animate_slideInRight animate_delay-1s">Here, some alpine cheeses are on display in the Viktualienmarkt in Munich's old city. The Viktualienmarkt offers visitors many choices. </p></div>
+        </section>
+
+
+        <section class="sec3 animate__animated wow animate__fadeInUp animate__delay-1s">
+            <img class="animate__animated wow animate__slideInLeft animate__delay-1s" width="400" height="375" id="cheese" src="germany_photos/alpine_cheese.jpg" alt="A Castle in Germany">
+            <img class="animate__animated wow animate__slideInRight animate__delay-1s" width="400" height="375" id="ramps" src="germany_photos/ramps2.jpg" alt="Ramps for sale in Munich">
+        </section>
+
+        <section class="sec5 animate__animated wow animate__zoomIn" >
+            <h2 class="sec5 animate__animated wow animate__fadeInDown" data-wow-delay="1s" >Here are some of my favorite places to visit.</h2>
+        </section>
+
+        <footer>
+            <ul class="footer">
+                <li><a href="#about-us">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </footer>
+
+        <!--JQUERY CDN LINK-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+        <!--WOW.JS LINK-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" ></script>
+
+        <script>
+            new WOW().init();
+        </script>
+
+    </body>
+</html>
