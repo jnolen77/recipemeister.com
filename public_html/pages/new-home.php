@@ -51,7 +51,7 @@ $keywords = "page1, example, template";
                 <p>After learning to cook German food at two private German clubs, he left for Philadelphia eventually opening the acclaimed German restaurant, Brauhaus Schmitz. It was at this restaurant where he solidified his expertise on German food winning multiple awards including Rising Star Chef 2013, several Best of Philly awards, and more. He has appeared on Food Network shows and has been published in Food & Wine, Saveur, Bon Appetit, the Philadelphia Inquirer, the Washington Post, and many online publications. </p>
             </div>
             <dic class="col-md-6 tac">
-                <img src="/assets/images/jeremy.jpg" alt="Jeremy Portrait" class="tac">
+                <img src="/assets/images/jeremy-portrait.jpg" alt="Jeremy Portrait" class="tac">
             </dic>
         </div>
     </div>
