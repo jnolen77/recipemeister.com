@@ -188,7 +188,9 @@ h2 {
     color: white;
 }
 
-
+.h3 {
+    color: #dd9933;
+}
 .sec1, .sec2, .sec3 {
     background-color: #f8f8e5;
     color: #2c2c54;
