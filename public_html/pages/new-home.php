@@ -55,5 +55,5 @@ $keywords = "page1, example, template";
             </dic>
         </div>
     </div>
-            
+       <div class="seplg"></div>     
     <?php include __DIR__ . '/../includes/footer.php'; ?>
