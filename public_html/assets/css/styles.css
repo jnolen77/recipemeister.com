@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     overflow-x: hidden;
     background: #f8f8e5;
     min-height: 100vh; 
@@ -15,7 +15,7 @@ body {
     flex-direction: column;
 }
 p {
-    font-family: 'Poppins' sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .title {
