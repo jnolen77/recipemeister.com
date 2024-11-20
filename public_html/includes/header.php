@@ -22,14 +22,26 @@ include __DIR__ . '/../config/classes.php';
     </head>
     
     <body>
-    <header class="d-none d-lg-block custom-header">
-            <div class="header-content">
-                <a href="/" class="logo">Savor Germany</a>
-                <ul class="nav-list">
-                    <?php renderDesktopMenu($menuItems); ?>
-                </ul>
-            </div>
-        </header>
+    <header>
+    <nav>
+        <ul>
+            <?php foreach ($menuItems as $menuName => $menuLink): ?>
+                <li>
+                    <?php if (is_array($menuLink)): ?>
+                        <a href="#"><?php echo $menuName; ?></a>
+                        <ul class="submenu">
+                            <?php foreach ($menuLink as $submenuName => $submenuLink): ?>
+                                <li><a href="<?php echo $submenuLink; ?>"><?php echo $submenuName; ?></a></li>
+                            <?php endforeach; ?>
+                        </ul>
+                    <?php else: ?>
+                        <a href="<?php echo $menuLink; ?>"><?php echo $menuName; ?></a>
+                    <?php endif; ?>
+                </li>
+            <?php endforeach; ?>
+        </ul>
+    </nav>
+</header>
 
         <!-- New Navbar -->
         <div id="mySidenav" class="sidenav">
