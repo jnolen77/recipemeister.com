@@ -6,7 +6,7 @@ include __DIR__ . '/../config/config.php';
 <html lang="en">
     <head>
     <meta charset="utf-8">
-        <title><?php echo $title ?? "$website - Culinary Adventures"; ?></title>
+        <title><?php echo $title ?? "$website"; ?></title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="<?php echo $description ?? $defaultDescription; ?>">
         <meta name="keywords" content="<?php echo $keywords ?? $defaultKeywords; ?>">
