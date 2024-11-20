@@ -22,44 +22,32 @@ include __DIR__ . '/../config/classes.php';
     </head>
     
     <body>
-    <header class="d-none d-lg-block custom-header">
-    <div class="header-content">
-        <a href="/" class="logo">Savor Germany</a>
-        <ul>
-            <?php foreach ($menuItems as $menuName => $menuLink): ?>
-                <li>
-                    <?php if (is_array($menuLink)): ?>
-                        <a href="#"><?php echo $menuName; ?></a>
-                        <ul class="submenu">
-                            <?php foreach ($menuLink as $submenuName => $submenuLink): ?>
-                                <li>
-                                    <a href="<?php echo $submenuLink; ?>"><?php echo $submenuName; ?></a>
-                                </li>
-                            <?php endforeach; ?>
-                        </ul>
-                    <?php else: ?>
-                        <a href="<?php echo $menuLink; ?>"><?php echo $menuName; ?></a>
-                    <?php endif; ?>
-                </li>
-            <?php endforeach; ?>
-        </ul>
-    </div>
-</header>
-
-
-        <!-- New Navbar -->
-        <div id="mySidenav" class="sidenav">
-            <img src="/assets/images/savor-germany-icon.png" alt="savor germany" style="width:120px; padding-left:20px;">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <?php renderSidenavMenu($menuItems); ?>
-        </div>
-
-        <span style="margin:10px;font-size:30px;cursor:pointer;" onclick="openNav()" class="mobile-menu"> 
-            <div class="mobile-title" style="padding: 0px 10px; display: flex; font-size: 22px; color: black; text-align: left;">
-                Savor Germany
-            </div> 
-            <div class="hamburger-menu" style="padding-left: 150px; display: flex;">
-                <img src="/assets/images/hamburger-icon.svg" alt="hamburger icon" style="width: 40px;"> 
+        <header class="d-none d-lg-block custom-header">
+            <div class="header-content">
+                <a href="https://recipemeister.com" class="logo">Savor Germany</a>
+                <ul class="nav-list">
+                    <li><a href="https://recipemeister.com">Home</a></li>
+                    <li><a href="/2025-tours">2025 Tours</a></li>
+                    <li><a href="/your-hosts">Your Hosts</a></li>
+                    <li><a href="/gallery">Gallery</a></li>
+                    <li><a href="/contact-us">Contact Us</a></li>
+                </ul>
             </div>
-        </span>
-        <!-- End New Navbar -->
+        </header>
+        
+            <!--New navbar-->
+            <div id="mySidenav" class="sidenav">
+                <img src="/assets/images/savor-germany-icon.png" alt="savor germany" style="width:120px; padding-left:20px;">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="/2025-tours">2025 Tours</a>
+                <a href="/your-hosts">Your Hosts</a>
+                <a href="/gallery">Gallery</a>
+                <a href="/contact-us">Contact Us</a>
+              </div>
+
+              <span style="margin:10px;font-size:30px;cursor:pointer;" onclick="openNav()" class="mobile-menu"> 
+                <div class="mobile-title" style="padding: 0px 10px;display:flex;;font-size:22px;color:black;text-align:left;">Savor Germany</div> 
+                <div class="hamburger-menu" style="padding-left:150px;display:flex;"><img src="/assets/images/hamburger-icon.svg" alt="hamburger icon" style="width:40px;"> </div>
+            </span>
+                
+            <!--End New navbar-->
