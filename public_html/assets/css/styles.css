@@ -168,7 +168,7 @@ header ul li .submenu li a:hover {
 
 /* Show submenu on hover */
 header ul li:hover .submenu {
-    display: block; /* Make submenu visible */
+    display: block !important; /* Make submenu visible */
 }
 
 /* Body Styles */
