@@ -60,6 +60,7 @@ $keywords = "page1, example, template";
                 <img src="/assets/images/jeremy-portrait.jpg" alt="Jeremy Portrait" class="tac" style="width:325px; height:auto; margin-top:50px;">
             </div>
         </div>
+        <div class="sepxl"></div>
         <div class="row">
             <div class="col-md-6 tac">
                 
