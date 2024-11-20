@@ -41,6 +41,18 @@ $keywords = "page1, example, template";
                 <p>Join us for an unforgettable experience and enrich your understanding of German culinary culture. Our food and beverage tours are not just about tasting delicious dishes; they're about connecting with the people, stories, and traditions that make German cuisine so special. Prepare to indulge in a journey of flavors with chefs Jeremy Nolen and Jessica Vogel, and create memories that will last a lifetime.</p>
             </div>
         </div>
+        <div class="row">
+            <div class="col-md-6 tac">
+                <h3>Who We Are</h3>
+                <h4>Jeremy Nolen</h4>
+                <p>Jeremy grew up with food at the forefront. His father was an award winning chef and oftentimes vacation meant food. Everywhere they went they would seek out the best butcher shops, markets, restaurants, and cuisine from all over the world. </p>
+                <p>Growing up in a heavily German immigrant community meant exposure to all things German from an early age. Private German clubs, restaurants, markets, and butcher shops were plentiful and it was this experience that engrained his love for the culture of Germany, and especially the food.</p>
+                <p>After learning to cook German food at two private German clubs, he left for Philadelphia eventually opening the acclaimed German restaurant, Brauhaus Schmitz. It was at this restaurant where he solidified his expertise on German food winning multiple awards including Rising Star Chef 2013, several Best of Philly awards, and more. He has appeared on Food Network shows and has been published in Food & Wine, Saveur, Bon Appetit, the Philadelphia Inquirer, the Washington Post, and many online publications. </p>
+            </div>
+            <dic class="col-md-6 tac">
+                <img src="/assets/images/jeremy.jpg" alt="Jeremy Portrait" class="tac">
+            </dic>
+        </div>
     </div>
             
     <?php include __DIR__ . '/../includes/footer.php'; ?>
