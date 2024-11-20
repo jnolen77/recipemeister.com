@@ -141,8 +141,6 @@ header ul li .submenu {
     top: 100%; /* Directly below the parent menu item */
     left: 50%; /* Center-align the dropdown under the parent item */
     transform: translateX(-50%); /* Adjust for perfect centering */
-    background: #fff; /* Background color for the dropdown */
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow for aesthetics */
     padding: 10px 0; /* Spacing inside the submenu */
     z-index: 1000; /* Ensure it appears above other elements */
     white-space: nowrap; /* Prevent text wrapping */

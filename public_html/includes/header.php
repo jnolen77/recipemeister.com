@@ -22,17 +22,19 @@ include __DIR__ . '/../config/classes.php';
     </head>
     
     <body>
-       <header class="d-none d-lg-block custom-header">
-            <div class="header-content">
-                <a href="/" class="logo">Savor Germany</a>
-                <ul>
+    <header class="d-none d-lg-block custom-header">
+    <div class="header-content">
+        <a href="/" class="logo">Savor Germany</a>
+        <ul>
             <?php foreach ($menuItems as $menuName => $menuLink): ?>
                 <li>
                     <?php if (is_array($menuLink)): ?>
                         <a href="#"><?php echo $menuName; ?></a>
                         <ul class="submenu">
                             <?php foreach ($menuLink as $submenuName => $submenuLink): ?>
-                                <li><a href="<?php echo $submenuLink; ?>"><?php echo $submenuName; ?></a></li>
+                                <li>
+                                    <a href="<?php echo $submenuLink; ?>"><?php echo $submenuName; ?></a>
+                                </li>
                             <?php endforeach; ?>
                         </ul>
                     <?php else: ?>
@@ -41,8 +43,9 @@ include __DIR__ . '/../config/classes.php';
                 </li>
             <?php endforeach; ?>
         </ul>
-            </div>
-        </header>
+    </div>
+</header>
+
 
         <!-- New Navbar -->
         <div id="mySidenav" class="sidenav">
