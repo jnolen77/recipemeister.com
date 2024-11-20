@@ -26,7 +26,7 @@ $keywords = "page1, example, template";
                 <h2>Experience the food, beer, & wine of Germany with two acclaimed chefs</h2>
         </div>
     </div>
-
+<div class="seplg"></div>
     <div class="constrain">
         <div class="row">
             <div class="col-md-12 tac">
@@ -41,6 +41,7 @@ $keywords = "page1, example, template";
                 <p>Join us for an unforgettable experience and enrich your understanding of German culinary culture. Our food and beverage tours are not just about tasting delicious dishes; they're about connecting with the people, stories, and traditions that make German cuisine so special. Prepare to indulge in a journey of flavors with chefs Jeremy Nolen and Jessica Vogel, and create memories that will last a lifetime.</p>
             </div>
         </div>
+        <div class="seplg"></div>
         <div class="row">
             <div class="col-md-6 tac">
                 <h3>Who We Are</h3>
