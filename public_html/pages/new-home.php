@@ -2,9 +2,9 @@
 include __DIR__ . '/../config/config.php'; // Relative path to config.php
 
 // Set page-specific metadata
-$title = "$website" . " - Page 1";
-$description = "This is the description for Page 1.";
-$keywords = "page1, example, template";
+$title = generateTitle(""); // Dynamic title
+$description = "This is the description for Page 1."; // Page-specific description
+$keywords = "page1, example, template"; // Page-specific keywords
 ?>
 
 <?php include __DIR__ . '/../includes/header.php'; ?>

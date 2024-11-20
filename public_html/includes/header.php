@@ -1,9 +1,15 @@
+<?php 
+include __DIR__ . '/../config/config.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8">
-        <title>Savory Germany - Culinary Vacations in Germany</title>
+    <meta charset="utf-8">
+        <title><?php echo $title ?? "$website - Culinary Adventures"; ?></title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="<?php echo $description ?? $defaultDescription; ?>">
+        <meta name="keywords" content="<?php echo $keywords ?? $defaultKeywords; ?>">
         <!--ANIMATE CSS LINK (REQUIRED)-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
