@@ -31,6 +31,7 @@ $keywords = "page1, example, template";
         <div class="row">
             <div class="col-md-12 tac">
                 <h1>Discover the best Germany as to offer!</h1>
+                <div class="sepsm"></div>
                 <p>
                 At Savor Germany we are passionate about food and travel. We are chefs who love to travel and love to eat. After over twenty years of experience cooking German food and traveling throughout Germany, we decided to share what we've learned.  We've handpicked some of our favorite tours, restaurants, breweries, vineyards, and more to share with you.    
                 </p>
