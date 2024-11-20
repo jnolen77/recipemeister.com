@@ -136,14 +136,16 @@ header a:hover {
 
 /* Submenu hidden by default */
 header ul li .submenu {
-    display: none !important; /* Hide submenu */
-    position: absolute; /* Position relative to parent */
-    top: 100%; /* Place submenu below parent menu item */
-    left: 0;
-    background: #fff; /* Background color for submenu */
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow for submenu */
-    padding: 10px 0; /* Add padding inside submenu */
+    display: none !important; /* Hidden by default */
+    position: absolute; /* Position relative to the parent menu item */
+    top: 100%; /* Directly below the parent menu item */
+    left: 50%; /* Center-align the dropdown under the parent item */
+    transform: translateX(-50%); /* Adjust for perfect centering */
+    background: #fff; /* Background color for the dropdown */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow for aesthetics */
+    padding: 10px 0; /* Spacing inside the submenu */
     z-index: 1000; /* Ensure it appears above other elements */
+    white-space: nowrap; /* Prevent text wrapping */
 }
 
 /* Style for submenu items */
