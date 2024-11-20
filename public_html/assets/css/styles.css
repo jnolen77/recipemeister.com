@@ -136,7 +136,7 @@ header a:hover {
 
 /* Submenu hidden by default */
 header ul li .submenu {
-    display: none; /* Hide submenu */
+    display: none !important; /* Hide submenu */
     position: absolute; /* Position relative to parent */
     top: 100%; /* Place submenu below parent menu item */
     left: 0;
@@ -155,7 +155,7 @@ header ul li .submenu li {
 
 header ul li .submenu li a {
     padding: 10px 20px; /* Add padding around links */
-    display: block; /* Make links take up full width */
+    display: block !important; /* Make links take up full width */
     color: #000 !important; /* Text color for submenu links */
     font-size: 18px; /* Match main menu font size */
     text-decoration: none;
