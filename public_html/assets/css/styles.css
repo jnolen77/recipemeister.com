@@ -243,10 +243,12 @@ h2 {
     padding: 20px;
     text-decoration: none;
     display: inline-flex;
+    text-shadow: none !important;
 }
 .button:hover {
     border: 2px solid #c98622;
     background-color: #d89e00;
+    text-shadow: none !important;
 }
 
 /* Footer styles */
