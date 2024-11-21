@@ -112,29 +112,30 @@ header a:hover {
     text-decoration: none;
 }
 
+/* Basic styles for the navigation */
 .nav-list {
-    display: flex;
     list-style: none;
-    padding: 0;
     margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
 }
 
 .nav-list li {
-    margin: 0 15px;
+    position: relative;
 }
 
-.nav-list li a {
+.nav-list a {
     text-decoration: none;
-    font-size: 16px;
-    color: #000;
-    transition: color 0.3s;
+    color: black;
+    transition: color 0.3s ease;
 }
 
-.nav-list li a:hover {
-    color: #ffa500;
+.nav-list a:hover {
+    color: #007BFF; /* Optional hover effect */
 }
 
-/* Dropdown styles */
+/* Dropdown menu styles */
 .dropdown-menu {
     display: none;
     position: absolute;
@@ -151,7 +152,10 @@ header a:hover {
 }
 
 .dropdown-menu a {
-    white-space: nowrap; /* Prevent links from wrapping */
+    text-decoration: none;
+    color: black;
+    white-space: nowrap; /* Prevent wrapping */
+    padding: 5px 0; /* Optional spacing */
 }
 
 /* Show the dropdown on hover */
