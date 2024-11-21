@@ -36,7 +36,7 @@ $keywords = "page1, example, template";
                 <h1>Discover the best Germany has to offer!</h1>
                 <div class="sepsm"></div>
                 <p>
-                At Savor Germany we are passionate about food and travel. We are chefs who love to travel and love to eat. After over twenty years of experience cooking German food and traveling throughout Germany, we decided to share what we've learned.  We've handpicked some of our favorite tours, restaurants, breweries, vineyards, and more to share with you.    
+                <strong>We are chefs who love to travel and love to eat. </strong> After over twenty years of experience cooking German food and traveling throughout Germany, we decided to share what we've learned.  We've handpicked some of our favorite tours, restaurants, breweries, vineyards, and more to share with you.    
                 </p>
                 <p>Germany is a country rich in gastronomic heritage and vibrant culinary traditions. Join us on an unforgettable journey hosted by renowned chefs Jeremy Nolen and Jessica Vogel, authors of the celebrated cookbook “New German Cooking.” Our expertly curated tours are designed to immerse you in the authentic flavors and experiences that make Germany a food and beverage lover's paradise.
                 </p>
