@@ -1,5 +1,5 @@
 <?php
-include __DIR__ . '/../config/config.php'; // Relative path to config.php
+include __DIR__ . '/config/config.php'; // Relative path to config.php
 
 // Set page-specific metadata
 $title = "$website" . " - Page 1";
@@ -7,7 +7,7 @@ $description = "This is the description for Page 1.";
 $keywords = "page1, example, template";
 ?>
 
-<?php include __DIR__ . '/../includes/header.php'; ?>
+<?php include __DIR__ . '/includes/header.php'; ?>
 
 <script type="text/javascript">
     window.addEventListener("scroll", function(){
@@ -46,4 +46,4 @@ $keywords = "page1, example, template";
         
     </div>
        <div class="seplg"></div>     
-    <?php include __DIR__ . '/../includes/footer.php'; ?>
+    <?php include __DIR__ . '/includes/footer.php'; ?>
