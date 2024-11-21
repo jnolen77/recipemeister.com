@@ -136,27 +136,18 @@ header a:hover {
 
 /* Dropdown menu styles */
 
-.dropdown {
-    position:relative;
-    display: flex;
-}
-.dropdown-content {
-    display: none;
-    position: absolute;
-    z-index: 1;
-}
-.dropdown-content a {
-    color:#dd9933;
-    text-decoration: none;
-    display: block;
-}
-l.dropdown-content a:hover {
-    color:#000
-}
-.dropdown:hover .dropdown-content {
-    display: block;
+.dropdown-menu {
+    background: transparent; /* Removes the default white background */
+    border: none; /* Removes the border */
 }
 
+.dropdown-item {
+    color: black; /* Adjust link color */
+}
+
+.dropdown-item:hover {
+    color: #007BFF; /* Adjust hover color */
+}
 /* Body Styles */
 
 
