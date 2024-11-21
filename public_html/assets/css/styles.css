@@ -134,7 +134,30 @@ header a:hover {
     color: #ffa500;
 }
 
+/* Dropdown styles */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: transparent; /* Ensure it's invisible */
+}
 
+.dropdown-menu li {
+    margin: 0;
+}
+
+.dropdown-menu a {
+    white-space: nowrap; /* Prevent links from wrapping */
+}
+
+/* Show the dropdown on hover */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
 
 /* Body Styles */
 
@@ -404,7 +427,7 @@ h2 {
     height: 60%;
     padding-top: 60px;
   }
-  
+
   .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
