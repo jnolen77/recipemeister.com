@@ -112,65 +112,30 @@ header a:hover {
     text-decoration: none;
 }
 
-/* Basic styles for the navigation */
 .nav-list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
     display: flex;
-    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .nav-list li {
-    position: relative; /* Necessary for positioning the dropdown */
+    margin: 0 15px;
 }
 
-.nav-list a {
+.nav-list li a {
     text-decoration: none;
-    color: black;
-    transition: color 0.3s ease;
+    font-size: 16px;
+    color: #000;
+    transition: color 0.3s;
 }
 
-.nav-list a:hover {
-    color: #007BFF; /* Optional hover effect */
+.nav-list li a:hover {
+    color: #ffa500;
 }
 
-/* Dropdown menu styles */
-.nav-list .dropdown-menu {
-    display: none;
-    position: absolute; /* Aligns dropdown relative to the parent */
-    top: 100%; /* Places it below the parent link */
-    left: 0; /* Aligns with the parent link */
-    background-color: transparent; /* No background */
-    list-style: none; /* Removes bullets */
-    margin: 0;
-    padding: 0;
-}
 
-/* Force dropdown items to display in a column */
-.nav-list .dropdown-menu li {
-    margin: 0;
-    padding: 0;
-}
 
-/* Styling for links inside the dropdown */
-.nav-list .dropdown-menu a {
-    text-decoration: none;
-    color: black; /* Dropdown link color */
-    padding: 5px 10px; /* Adjust for spacing */
-    white-space: nowrap; /* Prevent text wrapping */
-}
-
-/* Show dropdown menu on hover */
-.nav-list .dropdown:hover .dropdown-menu {
-    display: flex; /* Display as a block */
-    flex-direction: column; /* Align items vertically */
-}
-
-/* Adjust hover state for dropdown links */
-.nav-list .dropdown-menu a:hover {
-    color: #007BFF; /* Optional hover color */
-}
 /* Body Styles */
 
 
@@ -439,7 +404,7 @@ h2 {
     height: 60%;
     padding-top: 60px;
   }
-
+  
   .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
