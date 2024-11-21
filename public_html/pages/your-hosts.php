@@ -15,7 +15,14 @@ $keywords = "page1, example, template";
         header.classList.toggle("sticky", window.scrollY > 0);
     });
 </script>
-<div class="constrain">
+<section class="banner">
+        <div class="banner-overlay">
+            <h1>Your Hosts</h1>
+            <p>Copy this code and paste it into a new page for editing.</p>
+        </div>
+    </section>
+
+    <div class="constrain">
         <div class="row">
             <div class="col-md-12 tac">
                 <h1>Discover the best Germany has to offer!</h1>
