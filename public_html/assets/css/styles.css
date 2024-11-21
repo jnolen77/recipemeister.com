@@ -136,12 +136,14 @@ header a:hover {
 
 /* Dropdown menu styles */
 
-.dropdown-link {
-
+.dropdown {
+    position:relative;
+    display: flex;
 }
 .dropdown-content {
     display: none;
     position: absolute;
+    z-index: 1;
 }
 .dropdown-content a {
     color:#dd9933;
