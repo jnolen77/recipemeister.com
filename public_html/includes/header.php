@@ -42,6 +42,7 @@ include __DIR__ . '/../config/classes.php';
         </ul>
     </div>
 </header>
+
         
             <!--New navbar-->
             <div id="mySidenav" class="sidenav">
