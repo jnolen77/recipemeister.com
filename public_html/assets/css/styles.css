@@ -136,18 +136,14 @@ header a:hover {
 
 /* Dropdown menu styles */
 
-.dropdown-menu {
-    background: transparent; /* Removes the default white background */
-    border: none; /* Removes the border */
+.hover-menu {
+    display:none;
 }
 
-.dropdown-item {
-    color: black; /* Adjust link color */
+.hover-link:hover .hover-menu {
+    display: block;
 }
 
-.dropdown-item:hover {
-    color: #007BFF; /* Adjust hover color */
-}
 /* Body Styles */
 
 
