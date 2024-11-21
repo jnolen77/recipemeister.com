@@ -24,12 +24,9 @@ $keywords = "page1, example, template";
         <div class="overlay-text">
             <h1>Savor Germany</h1>
                 <h2>Experience the food, beer, & wine of Germany with two acclaimed chefs</h2>
-        </div>
-        <div class="row tac">
-            <div class="col-md-12 tac">
                 <a href="/spring-2025" class="button">Discover Your Next Adventure</a>
-            </div>
         </div>
+        
     </div>
 <div class="seplg"></div>
     <div class="constrain">

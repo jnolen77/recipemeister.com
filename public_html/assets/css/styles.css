@@ -236,11 +236,15 @@ h2 {
     color: #2c2c54;
 }
 .button {
-    border: #dd9933;
+    border: 2px solid #dd9933;
     background-color: #f8b400;
-    color:#333;
-    border-radius: 5px;
+    color: #333;
+    border-radius: 15px;
+    padding: 20px;
+    text-decoration: none;
+    display: inline-flex;
 }
+
 
 /* Footer styles */
 .footer {
