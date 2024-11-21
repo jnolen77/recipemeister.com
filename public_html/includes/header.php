@@ -27,8 +27,8 @@ include __DIR__ . '/../config/classes.php';
                 <a href="https://recipemeister.com" class="logo">Savor Germany</a>
                 <ul class="nav-list">
                     <li><a href="https://recipemeister.com">Home</a></li>
-                    <li><a href="/2025-tours">2025 Tours</a></li>
-                    <ul class="dropdown">
+                    <li class="dropdown"><a href="/2025-tours">2025 Tours</a></li>
+                    <ul class="dropdown-menu">
                         <li><a href="bavarian-breweries-2025">Bavarian Breweries</a></li>
                         <li><a href="munich-oktoberfest-2025">Munich Oktoberfest</a></li>
                         <li><a href="oktoberfest-and-bavaria">Oktoberfest & Bavaria</a></li>
