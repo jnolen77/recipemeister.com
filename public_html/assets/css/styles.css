@@ -236,7 +236,6 @@ h2 {
     color: #2c2c54;
 }
 .button {
-    border: 2px solid #dd9933;
     background-color: #f8b400;
     color: #333;
     border-radius: 15px;
@@ -246,8 +245,7 @@ h2 {
     text-shadow: none !important;
 }
 .button:hover {
-    border: 2px solid #c98622;
-    background-color: #d89e00;
+    background-color: #f1cd01;
     text-shadow: none !important;
 }
 
