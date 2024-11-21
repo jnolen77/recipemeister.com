@@ -134,7 +134,26 @@ header a:hover {
     color: #ffa500;
 }
 
+/* Dropdown menu styles */
 
+.dropdown-link {
+
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+}
+.dropdown-content a {
+    color:#dd9933;
+    text-decoration: none;
+    display: block;
+}
+l.dropdown-content a:hover {
+    color:#000
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
 
 /* Body Styles */
 

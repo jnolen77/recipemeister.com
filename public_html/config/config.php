@@ -1,6 +1,6 @@
 <?php
 // config.php
-$stylesheet = "/assets/css/styles.css?v=2.3573"; // Path to your CSS file
+$stylesheet = "/assets/css/styles.css?v=2.3574"; // Path to your CSS file
 
 $website = "Savor Germany";
 

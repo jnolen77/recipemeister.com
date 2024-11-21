@@ -29,7 +29,7 @@ include __DIR__ . '/../config/classes.php';
             <li><a href="https://recipemeister.com">Home</a></li>
             <li class="dropdown">
                 <a href="/2025-tours">2025 Tours</a>
-                <ul class="dropdown-menu">
+                <ul class="dropdown-content">
                     <li><a href="bavarian-breweries-2025">Bavarian Breweries</a></li>
                     <li><a href="munich-oktoberfest-2025">Munich Oktoberfest</a></li>
                     <li><a href="oktoberfest-and-bavaria">Oktoberfest & Bavaria</a></li>
