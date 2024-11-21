@@ -51,11 +51,11 @@ new WOW().init();
 <!--New Navbar script-->
 <script>
 function openNav() {
-  document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("mySidenav").classList.add("open");
 }
 
 function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("mySidenav").classList.remove("open");
 }
 </script>
 <!--End new navbar script-->
