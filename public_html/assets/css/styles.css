@@ -136,34 +136,41 @@ header a:hover {
 }
 
 /* Dropdown menu styles */
-.dropdown-menu {
-    display: none; /* Hide by default */
-    position: absolute; /* Position relative to the parent */
-    top: 100%; /* Align below the parent link */
-    left: 0; /* Align with the parent link */
-    list-style: none;
+.nav-list .dropdown-menu {
+    display: none;
+    position: absolute; /* Aligns dropdown relative to the parent */
+    top: 100%; /* Places it below the parent link */
+    left: 0; /* Aligns with the parent link */
+    background-color: transparent; /* No background */
+    list-style: none; /* Removes bullets */
+    margin: 0;
     padding: 0;
-    margin: 0;
-    background: transparent; /* No background to keep it simple */
-    z-index: 10; /* Ensure it appears above other elements */
 }
 
-.dropdown-menu li {
+/* Force dropdown items to display in a column */
+.nav-list .dropdown-menu li {
     margin: 0;
+    padding: 0;
 }
 
-.dropdown-menu a {
+/* Styling for links inside the dropdown */
+.nav-list .dropdown-menu a {
     text-decoration: none;
-    color: #000; /* Black text */
-    padding: 5px 0; /* Optional padding */
-    white-space: nowrap; /* Prevent wrapping */
+    color: black; /* Dropdown link color */
+    padding: 5px 10px; /* Adjust for spacing */
+    white-space: nowrap; /* Prevent text wrapping */
 }
 
-/* Show dropdown on hover */
-.dropdown:hover .dropdown-menu {
-    display: block; /* Make visible */
+/* Show dropdown menu on hover */
+.nav-list .dropdown:hover .dropdown-menu {
+    display: flex; /* Display as a block */
+    flex-direction: column; /* Align items vertically */
 }
 
+/* Adjust hover state for dropdown links */
+.nav-list .dropdown-menu a:hover {
+    color: #007BFF; /* Optional hover color */
+}
 /* Body Styles */
 
 
