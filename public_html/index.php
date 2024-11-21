@@ -1,59 +1,49 @@
 <?php
-
-include 'config/config.php' ;
+include __DIR__ . '/../config/config.php'; // Relative path to config.php
 
 // Set page-specific metadata
 $title = "$website" . " - Page 1";
 $description = "This is the description for Page 1.";
 $keywords = "page1, example, template";
-
 ?>
-<?php include 'assets/templates/header.php'; ?>
 
+<?php include __DIR__ . '/../includes/header.php'; ?>
 
+<script type="text/javascript">
+    window.addEventListener("scroll", function(){
+        var header = document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY > 0);
+    });
+</script>
 
-            <section class="banner">
-                <div class="banner-overlay col-12 col-md-12">
-                    <h1>Savor Germany</h1>
-                    <p>Experience the food, beer, & wine of Germany with two acclaimed chefs</p>
-                </div>
-            </section>
-            
-            <script type="text/javascript">
-                window.addEventListener("scroll", function(){
-                    var header = document.querySelector("header");
-                    header.classList.toggle("sticky", window.scrollY > 0);
-                });
-            </script>
-            
-            <!-- Combined Section for Desktop and Mobile with Media Queries for Responsive Layout -->
-            <section class="combined-section animate__animated wow animate__zoomIn">
-                <div class="">
-                    <p id="dynamicText"></p>
-                </div>
-
-                <div class="sec1 content-block">
-                    <h1 class="animate__animated wow animate__fadeInUp" style="animation-duration:2s;" data-wow-delay="1s">
-                        Experience the food, beer, and wine of Germany with two acclaimed chefs.
-                    </h1>
-                </div>
-            
-                <div class="sec2 content-block">
-                    <p class="animate__animated wow animate__fadeInUp" style="animation-duration:2s;" data-wow-delay="3s">
-                        Join us in our culinary adventures in Germany. We offer vacation packages mostly in the southern
-                        part of Germany - focusing on Bavaria and the Black Forest region. As chefs, we love to eat when we travel.
-                        From Michelin-starred restaurants to roadside stands and beer halls - we're sure you'll love it! We extensively
-                        research restaurants, breweries, farmer's markets, vineyards, and more to curate an amazing selection for our trips.
-                    </p>
-                </div>
-            
-                <div class="sec3 content-block">
-                    <p class="alpineText animate__animated wow animate__fadeInUp" style="animation-duration:2s;" data-wow-delay="5s">
-                        Here, some alpine cheeses are on display in the Viktualienmarkt in Munich's old city. The Viktualienmarkt
-                        offers visitors many choices.
-                    </p>
-                </div>
-            </section>
-
-            
-<?php include 'assets/templates/footer.php'; ?>
+    <div class="video-container">
+        <video autoplay muted loop playsinline>
+            <source src="/assets/images/bavarian-mountains.mp4" type="video/mp4">       
+            Your browser does not support the video tag.
+            </video>
+        <div class="overlay-text">
+            <h1>Savor Germany</h1>
+                <h2>Experience the food, beer, & wine of Germany with two acclaimed chefs</h2>
+        </div>
+    </div>
+<div class="seplg"></div>
+    <div class="constrain">
+        <div class="row">
+            <div class="col-md-12 tac">
+                <h1>Discover the best Germany has to offer!</h1>
+                <div class="sepsm"></div>
+                <p>
+                At Savor Germany we are passionate about food and travel. We are chefs who love to travel and love to eat. After over twenty years of experience cooking German food and traveling throughout Germany, we decided to share what we've learned.  We've handpicked some of our favorite tours, restaurants, breweries, vineyards, and more to share with you.    
+                </p>
+                <p>Germany is a country rich in gastronomic heritage and vibrant culinary traditions. Join us on an unforgettable journey hosted by renowned chefs Jeremy Nolen and Jessica Vogel, authors of the celebrated cookbook “New German Cooking.” Our expertly curated tours are designed to immerse you in the authentic flavors and experiences that make Germany a food and beverage lover's paradise.
+                </p>
+                <p>Embark on a culinary adventure that takes you beyond the typical tourist path, delving into the heart of Germany's food culture. With Jeremy and Jessica as your guides, you will discover hidden gems and iconic establishments alike, visiting acclaimed restaurants, charming breweries, and picturesque vineyards. Each destination is carefully selected to showcase the diversity and depth of German cuisine, from hearty regional specialties to innovative modern dishes.</p>
+                <p>Our tours offer a unique opportunity to engage with local artisans and producers. Visit bustling farmer's markets brimming with fresh, seasonal produce, and meet the passionate bakers, butchers, and winemakers who uphold Germany's culinary traditions. Whether you're savoring a perfectly crafted pastry, sampling a robust craft beer, or enjoying a sumptuous meal in a historic restaurant, you'll gain a deeper appreciation for the craftsmanship and dedication that goes into every bite.</p>
+                <p>Join us for an unforgettable experience and enrich your understanding of German culinary culture. Our food and beverage tours are not just about tasting delicious dishes; they're about connecting with the people, stories, and traditions that make German cuisine so special. Prepare to indulge in a journey of flavors with chefs Jeremy Nolen and Jessica Vogel, and create memories that will last a lifetime.</p>
+            </div>
+        </div>
+        <div class="seplg"></div>
+        
+    </div>
+       <div class="seplg"></div>     
+    <?php include __DIR__ . '/../includes/footer.php'; ?>
