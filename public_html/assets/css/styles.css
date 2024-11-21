@@ -244,7 +244,10 @@ h2 {
     text-decoration: none;
     display: inline-flex;
 }
-
+.button:hover {
+    border: 2px solid #c98622;
+    background-color: #d89e00;
+}
 
 /* Footer styles */
 .footer {
