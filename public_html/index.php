@@ -2,9 +2,9 @@
 include __DIR__ . '/config/config.php'; // Relative path to config.php
 
 // Set page-specific metadata
-$title = "$website" . " - Page 1";
-$description = "This is the description for Page 1.";
-$keywords = "page1, example, template";
+$title = "$website" . " | Culniary Travel in Germany";
+$description = "Discover the best of Germany with Savor Germany! Explore curated culinary, brewery, and winery tours, authentic German recipes, and insider travel tips. Experience the rich flavors and culture of Germany like never before.";
+$keywords = "Germany travel, German food tours, Brewery tours in Germany, German wine tours, Culinary tours Germany, Authentic German recipes, German beer culture, Oktoberfest experiences, German wineries, Best German restaurants, Travel Germany food, Savor Germany tours, German cuisine experiences, German culinary adventures, Food and beer Germany, German food culture, German vineyards, German cooking, Germany beer festivals, Wine tasting Germany, German culinary travel, Foodie tours Germany, Best breweries Germany, German travel guide, Authentic German food, Travel Germany wine, Beer tours Bavaria, Explore Germany food";
 ?>
 
 <?php include __DIR__ . '/includes/header.php'; ?>
@@ -48,5 +48,8 @@ $keywords = "page1, example, template";
         <div class="seplg"></div>
         
     </div>
-       <div class="seplg"></div>     
+       <div class="seplg"></div>  
+       
+       
+       
     <?php include __DIR__ . '/includes/footer.php'; ?>

@@ -1,15 +1,13 @@
 <?php
-
-include 'config/config.php' ;
+include __DIR__ . '/../config/config.php'; // Relative path to config.php
 
 // Set page-specific metadata
 $title = "$website" . " - Page 1";
 $description = "This is the description for Page 1.";
 $keywords = "page1, example, template";
-
 ?>
-<?php include 'includes/header.php'; ?>
 
+<?php include __DIR__ . '/../includes/header.php'; ?>
 
 <script type="text/javascript">
             window.addEventListener("scroll", function(){
@@ -27,7 +25,7 @@ $keywords = "page1, example, template";
 
     <section class="page">
     <div class="dropdown">
-  <button class="dropbtn">Dropdown</button>
+  <div class="dropbtn">Dropdown</div>
   <div class="dropdown-content">
     <a href="#">Link 1</a>
     <a href="#">Link 2</a>
@@ -37,4 +35,4 @@ $keywords = "page1, example, template";
     </section>
 
 
-<?php include 'assets/templates/footer.php'; ?>
+    <?php include __DIR__ . '/../includes/footer.php'; ?>

@@ -17,3 +17,32 @@ document.addEventListener("DOMContentLoaded", function () {
     const observer = new IntersectionObserver(lazyLoad);
     lazyImages.forEach(img => observer.observe(img));
 });
+
+// Typewriter Effect
+const text = "Willkommen to Savor Germany";
+let index = 0;
+
+function typeWriter() {
+    if (index < text.length) {
+        document.getElementById("dynamicText").innerHTML += text.charAt(index);
+        index++;
+        setTimeout(typeWriter, 100);
+    }
+}
+
+// WOW.js Initialization
+new WOW().init();
+
+// Navbar Open/Close
+function openNav() {
+    document.getElementById("mySidenav").classList.add("open");
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").classList.remove("open");
+}
+
+window.addEventListener("scroll", function(){
+     var header = document.querySelector("header");
+    header.classList.toggle("sticky", window.scrollY > 0);
+});
