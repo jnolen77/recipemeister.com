@@ -46,3 +46,14 @@ window.addEventListener("scroll", function(){
      var header = document.querySelector("header");
     header.classList.toggle("sticky", window.scrollY > 0);
 });
+
+
+document.querySelectorAll('.sidenav .dropdown-toggle').forEach(toggle => {
+    toggle.addEventListener('click', function () {
+        this.classList.toggle('open');
+        const dropdownMenu = this.nextElementSibling;
+        if (dropdownMenu) {
+            dropdownMenu.style.display = dropdownMenu.style.display === 'flex' ? 'none' : 'flex';
+        }
+    });
+});
