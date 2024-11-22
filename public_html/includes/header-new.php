@@ -20,40 +20,7 @@ include __DIR__ . '/../config/classes.php';
         <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
         
         <style>
-.dropbtn {
-  background-color: #04AA6D;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-}
 
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content a:hover {background-color: #ddd;}
-
-.dropdown:hover .dropdown-content {display: block;}
-
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
 </style>
 
     </head>
@@ -61,18 +28,19 @@ include __DIR__ . '/../config/classes.php';
     <body>
     <header class="d-none d-lg-block custom-header">
     <div class="header-content">
-        <a href="https://recipemeister.com" class="logo">Savor Germany</a>
-        <div><a href="/contact-us">Contact Us</a></div>
+        <a href="https://recipemeister.com" class="logo">Home</a>
         <div class="dropdown">
-            
-            <div class="dropbtn"><a href="https://recipemeister.com">Home</a></div>
+            <div class="dropbtn"><a href="https://recipemeister.com">2025 Tours</a></div>
             <div class="dropdown-content">
-                <a href="#">Link 1</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
+                <a href="/springfest-2025">Bavaria & Franconia 2025</a>
+                <a href="/oktoberfest-2025">Oktoberfest Munich 2025</a>
+                <a href="/oktoberfest-beyond-2025">Oktoberfest & Beyond 2025</a>
             </div>
             </div>
         </div>
+        <div><a href="/gallery">Gallery</a></div>
+        <div><a href="/your-hosts">Your Hosts</a></div>
+        <div><a href="/contact-us">Contact Us</a></div>
 </header>
 
         
