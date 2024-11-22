@@ -1,7 +1,7 @@
 <?php
 
-include __DIR__ . '/config/config.php';
-include __DIR__ . '/includes/header.php';
+include __DIR__ . '/../config/config.php';
+include __DIR__ . '/../includes/header.php';
 
 $title = "$website | Culinary Travel in Germany";
 $description = "Discover the best of Germany with Savor Germany! Explore curated culinary, brewery, and winery tours, authentic German recipes, and insider travel tips.";
@@ -27,11 +27,36 @@ $keywords = "Germany travel, German food tours, Brewery tours in Germany, German
             <h2>Feel free to contact Us for more information! We'd love to hear from you!</h2>
             <p>We're always looking for more suggestions and recommendations in Germany, Austria, and Switzerland. 
             Have a favorite restaurant, Weinstube, or Gasthaus that has incredible food? Let us know!</p>
+
         </div>
     </div>
 </section>
+<div class="container">
+    <div class="col-md-3"></div>
+    <div class="row tac">
+        <div class="col-md-6">
+        <form id="contactForm">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" required>
+    
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required>
+    
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="5" required></textarea>
 
+    <!-- Bot field -->
+    <input type="hidden" id="botField" name="botField">
 
+    <button type="submit">Send</button>
+</form>
+<div id="responseMessage"></div>
 
+    <div id="responseMessage"></div>
+        </div>
+    </div>
+    <div class="col-md-3"></div>
+</div>
+<div class="seplg"></div>
 
 <?php include __DIR__ . '/../includes/footer.php'; ?>
