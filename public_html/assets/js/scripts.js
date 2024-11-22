@@ -77,7 +77,7 @@ document.getElementById('contactForm').addEventListener('submit', function(event
     }
 
     const formData = new FormData(this);
-    fetch('send_email.php', {
+    fetch('https://recipemeister.com/send_email', {
         method: 'POST',
         body: formData
     })
