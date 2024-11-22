@@ -1,13 +1,12 @@
 <?php
-include __DIR__ . '/../config/config.php'; // Relative path to config.php
+include __DIR__ . '/../config/config.php'; 
+include __DIR__ . '/../includes/header.php';
 
-// Set page-specific metadata
 $title = "$website" . " - Page 1";
 $description = "This is the description for Page 1.";
 $keywords = "page1, example, template";
 ?>
 
-<?php include __DIR__ . '/../includes/header.php'; ?>
 
 <script type="text/javascript">
     window.addEventListener("scroll", function(){
@@ -15,21 +14,14 @@ $keywords = "page1, example, template";
         header.classList.toggle("sticky", window.scrollY > 0);
     });
 </script>
-<section class="banner">
+<section class="banner" style="height: 40vh;">
         <div class="banner-overlay">
-            <h1>Your Hosts</h1>
-            <p>Copy this code and paste it into a new page for editing.</p>
+            <h1 style="margin-top:150px;">Your Hosts</h1>
         </div>
     </section>
 
     <div class="constrain">
         <div class="seplg"></div>
-        <div class="row tac">
-            <div class="col-md-6 tac">
-            <h1>Who We Are</h1>
-            </div>
-        </div>
-        <div class="sepmd"></div>
         <div class="row">
             <div class="col-md-6 tac">
                 

@@ -9,12 +9,7 @@ $keywords = "page1, example, template";
 
 <?php include __DIR__ . '/../includes/header.php'; ?>
 
-<script type="text/javascript">
-    window.addEventListener("scroll", function(){
-        var header = document.querySelector("header");
-        header.classList.toggle("sticky", window.scrollY > 0);
-    });
-</script>
+
 
 <div class="video-container" style="height:550px !important;">
         <video autoplay muted loop playsinline>

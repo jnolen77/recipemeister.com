@@ -1,12 +1,12 @@
 <?php
-
-include __DIR__ . '/config/config.php';
+include __DIR__ . '/config/config.php'; /
 include __DIR__ . '/includes/header.php';
 
-$title = "$website | Culinary Travel in Germany";
-$description = "Discover the best of Germany with Savor Germany! Explore curated culinary, brewery, and winery tours, authentic German recipes, and insider travel tips.";
+$title = "$website" . " | Culinary Travel in Germany";
+$description = "Discover the best of Germany with Savor Germany! Explore curated culinary, brewery, and winery tours, authentic German recipes, and insider travel tips. Experience the rich flavors and culture of Germany like never before.";
 $keywords = "Germany travel, German food tours, Brewery tours in Germany, German wine tours, Culinary tours Germany, Authentic German recipes, German beer culture, Oktoberfest experiences, German wineries, Best German restaurants, Travel Germany food, Savor Germany tours, German cuisine experiences, German culinary adventures, Food and beer Germany, German food culture, German vineyards, German cooking, Germany beer festivals, Wine tasting Germany, German culinary travel, Foodie tours Germany, Best breweries Germany, German travel guide, Authentic German food, Travel Germany wine, Beer tours Bavaria, Explore Germany food";
 ?>
+
 
 <script type="text/javascript">
     window.addEventListener("scroll", function(){
