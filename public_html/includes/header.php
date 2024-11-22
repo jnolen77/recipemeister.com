@@ -43,20 +43,29 @@ include __DIR__ . '/../config/classes.php';
            
     </header>
 
-        
-            <!--Mobile Navbar-->
-            <div id="mySidenav" class="sidenav">
-                <img src="/assets/images/savor-germany-icon.png" alt="savor germany" style="width:120px; padding-left:20px;">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <a href="/2025-tours">2025 Tours</a>
-                <a href="/your-hosts">Your Hosts</a>
-                <a href="/gallery">Gallery</a>
-                <a href="/contact-us">Contact Us</a>
-              </div>
+   <!--Mobile Navbar-->
+<div id="mySidenav" class="sidenav">
+    <img src="/assets/images/savor-germany-icon.png" alt="savor germany" style="width:120px; padding-left:20px;">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="/2025-tours" class="dropdown-toggle">
+        2025 Tours
+        <span class="arrow">&#9660;</span>
+    </a>
+    <div class="dropdown-menu">
+        <a href="/bavarian-breweries-2025" class="dropdown-menu-item">Bavaria & Franconia 2025</a>
+        <a href="/oktoberfest-2025" class="dropdown-menu-item">Oktoberfest Munich 2025</a>
+        <a href="/oktoberfest-beyond-2025" class="dropdown-menu-item">Oktoberfest & Beyond 2025</a>
+    </div>
+    <a href="/your-hosts">Your Hosts</a>
+    <a href="/gallery">Gallery</a>
+    <a href="/contact-us">Contact Us</a>
+</div>
 
-              <span style="margin:10px;font-size:30px;cursor:pointer;" onclick="openNav()" class="mobile-menu"> 
-                <div class="mobile-title" style="padding: 0px 10px;display:flex;;font-size:22px;color:black;text-align:left;">Savor Germany</div> 
-                <div class="hamburger-menu" style="padding-left:150px;display:flex;"><img src="/assets/images/hamburger-icon.svg" alt="hamburger icon" style="width:40px;"> </div>
-            </span>
-                
+<span style="margin:10px;font-size:30px;cursor:pointer;" onclick="openNav()" class="mobile-menu"> 
+    <div class="mobile-title" style="padding: 0px 10px;display:flex;font-size:22px;color:black;text-align:left;">Savor Germany</div> 
+    <div class="hamburger-menu" style="padding-left:150px;display:flex;">
+        <img src="/assets/images/hamburger-icon.svg" alt="hamburger icon" style="width:40px;"> 
+    </div>
+</span>
+
             
