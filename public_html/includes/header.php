@@ -12,7 +12,7 @@ include __DIR__ . '/../config/classes.php';
         <meta name="description" content="<?php echo $description ?? $defaultDescription; ?>">
         <meta name="keywords" content="<?php echo $keywords ?? $defaultKeywords; ?>">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
         <link rel="stylesheet" href="<?php echo $stylesheet; ?>">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

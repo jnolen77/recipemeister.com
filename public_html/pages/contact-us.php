@@ -35,24 +35,7 @@ $keywords = "Germany travel, German food tours, Brewery tours in Germany, German
     <div class="col-md-3"></div>
     <div class="row tac">
         <div class="col-md-6">
-        <form id="contactForm">
-    <label for="name">Name</label>
-    <input type="text" id="name" name="name" required>
-    
-    <label for="email">Email</label>
-    <input type="email" id="email" name="email" required>
-    
-    <label for="message">Message</label>
-    <textarea id="message" name="message" rows="5" required></textarea>
-
-    <!-- Bot field -->
-    <input type="hidden" id="botField" name="botField">
-
-    <button type="submit">Send</button>
-</form>
-<div id="responseMessage"></div>
-
-    <div id="responseMessage"></div>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSex-8YGE3hlEqJRvqDtGDRFksH2837k7kgkDgDIbEAZRZmXQA/viewform?embedded=true" width="640" height="959" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
         </div>
     </div>
     <div class="col-md-3"></div>
