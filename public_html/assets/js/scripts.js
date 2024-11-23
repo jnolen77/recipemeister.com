@@ -64,47 +64,6 @@ window.addEventListener("scroll", function(){
     header.classList.toggle("sticky", window.scrollY > 0);
 });
 
-/* contact form script */
-
-document.getElementById('contactForm').addEventListener('submit', function(event) {
-    event.preventDefault();
-
-    
-    if (document.getElementById('botField').value !== '') {
-        document.getElementById('responseMessage').innerHTML = 
-            '<div class="error">Bot detected. Submission blocked.</div>';
-        return;
-    }
-
-    const formData = new FormData(this);
-    fetch('https://recipemeister.com/send_email', {
-        method: 'POST',
-        body: formData
-    })
-    .then(response => response.json())
-    .then(data => {
-        const responseMessage = document.getElementById('responseMessage');
-        if (data.success) {
-            responseMessage.innerHTML = 
-                '<div class="success">Message sent successfully!</div>';
-            document.getElementById('contactForm').reset();
-        } else {
-            responseMessage.innerHTML = 
-                '<div class="error">Error sending message. Please try again later.</div>';
-        }
-    })
-    .catch(() => {
-        document.getElementById('responseMessage').innerHTML = 
-            '<div class="error">An error occurred. Please try again later.</div>';
-    });
-});
-
-const botField = document.createElement('input');
-botField.type = 'text';
-botField.name = 'botField';
-botField.id = 'botField';
-botField.style.display = 'none'; // Ensures it's hidden
-document.getElementById('contactForm').appendChild(botField);
 
 let mybutton = document.getElementById("myBtn");
 

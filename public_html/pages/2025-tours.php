@@ -16,6 +16,8 @@ $keywords = "page1, example, template";
     });
 </script>
 
+
+
 <div class="video-container" style="height:550px !important;">
         <video autoplay muted loop playsinline>
             <source src="/assets/images/bavarian-mountains.mp4" type="video/mp4">       

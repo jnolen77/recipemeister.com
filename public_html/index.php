@@ -1,5 +1,5 @@
 <?php
-include __DIR__ . '/config/config.php'; /
+include __DIR__ . '/config/config.php'; 
 include __DIR__ . '/includes/header.php';
 
 $title = "$website" . " | Culinary Travel in Germany";
@@ -24,7 +24,7 @@ $keywords = "Germany travel, German food tours, Brewery tours in Germany, German
             <h1>Savor Germany</h1>
                 <h2>Experience the food, beer, & wine of Germany with two acclaimed chefs</h2>
                 <div class="seplg"></div>
-                <a href="/bavarian-breweries-2025" class="button">Discover Your Next Adventure</a>
+                <a href="/bavaria-franconia-2025" class="button">Discover Your Next Adventure</a>
         </div>
         
     </div>
@@ -47,6 +47,19 @@ $keywords = "Germany travel, German food tours, Brewery tours in Germany, German
         <div class="seplg"></div>
         
     </div>
+    <div class="container">
+    <div class="row">
+        <div class="col-md-12 tac">
+        <div id="fd-form-6672feb8d8e8af728f2b106d"></div>
+<script>
+  window.fd('form', {
+    formId: '6672feb8d8e8af728f2b106d',
+    containerEl: '#fd-form-6672feb8d8e8af728f2b106d'
+  });
+</script>
+        </div>
+    </div>
+</div>
        <div class="seplg"></div>  
        
        

@@ -25,14 +25,12 @@ $keywords = "page1, example, template";
 
     <section class="page">
     <div class="page-content">
-        <div class="col-12 col-md-6 text-content">
+        <div class="col-12 col-md-12 text-content">
             <h2>Feel free to contact Us for more information! We'd love to hear from you!</h2>
             <p>We're always looking for more suggestions and recommendations in Germany, Austria, and Switzerland. 
             Have a favorite restaurant, Weinstube, or Gasthaus that has incredible food? Let us know!</p>
         </div>
-        <div class="col-12 col-md-6 image-content">
-            <img src="/assets/images/ramps2.jpg" alt="Ramps" class="responsive-img" style="width: 400px;">
-        </div>
+        
     </div>
 </section>
 

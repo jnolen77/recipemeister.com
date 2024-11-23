@@ -32,30 +32,17 @@ $keywords = "Germany travel, German food tours, Brewery tours in Germany, German
     </div>
 </section>
 <div class="container">
-    <div class="col-md-3"></div>
-    <div class="row tac">
-        <div class="col-md-6">
-        <form id="contactForm">
-    <label for="name">Name</label>
-    <input type="text" id="name" name="name" required>
-    
-    <label for="email">Email</label>
-    <input type="email" id="email" name="email" required>
-    
-    <label for="message">Message</label>
-    <textarea id="message" name="message" rows="5" required></textarea>
-
-    <!-- Bot field -->
-    <input type="hidden" id="botField" name="botField">
-
-    <button type="submit">Send</button>
-    </form>
-    <div id="responseMessage"></div>
-
-    <div id="responseMessage"></div>
+    <div class="row">
+        <div class="col-md-12 tac">
+        <div id="fd-form-6672feb8d8e8af728f2b106d"></div>
+<script>
+  window.fd('form', {
+    formId: '6672feb8d8e8af728f2b106d',
+    containerEl: '#fd-form-6672feb8d8e8af728f2b106d'
+  });
+</script>
         </div>
     </div>
-    <div class="col-md-3"></div>
 </div>
 <div class="seplg"></div>
 

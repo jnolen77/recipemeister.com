@@ -518,8 +518,76 @@ h2 {
     font-size: 36px;
     margin-left: 50px;
   }
-
+/* new mobile menu styles */
+  ul{
+    list-style:none;
+  }
+  .mobile-menu-list>li {
+      border-bottom: 1px solid #2e3f52;
+    cursor:pointer;
+  }
   
+  .mobile-menu-list li a {
+      color: white !important;
+      display: block;
+      width: inherit;
+      position: relative;
+      line-height: 20px;
+      height: 40px;
+      padding: 10px;
+      transition: all .51s ease;
+  }
+  .mobile-menu-box{
+    background-color: #28394A;
+  }
+  
+  .mobile-menu-list>li>a:hover {
+      background-color: #285786;
+      color: #2e3f52;
+  }
+  .dropdown-mobile-submenu>a:hover{
+      background-color: #285786;
+      color: #637991;
+  }
+  .mobile-menu-list a {
+      text-decoration: none !important;
+  }
+  
+  .dropdown-mobile-menu {
+      margin: 0px;
+      padding: 0px;
+  }
+  
+  .dropdown-mobile-menu li {
+      background-color: transparent;
+  }
+  
+  .level-1 {
+      box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.52) inset;
+  }
+  .level-1 a:before{
+    content:"  ";
+    white-space: pre;
+  }
+  
+  .level-1 {
+      background-color: #202f40;
+  }
+
+  .caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px dashed;
+    border-top: 4px solid\9;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+
+  /* end of new menu styles */
+
   .combined-section {
     display: flex;
     flex-direction: column;
@@ -582,8 +650,8 @@ h2 {
 
   }
 
-  @media screen and (min-height: 850px) {
-    span {
+@media screen and (min-height: 850px) {
+    #mobile-menu-toggle {
         display: none;
         margin-left: 15px;
     }
