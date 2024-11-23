@@ -847,7 +847,9 @@ input, textarea {
     color: white;
     cursor: pointer;
     padding: 15px;
-    border-radius: 4px;
+    border-radius: 40px;
+    width: 40px;
+    height: 40px;
   }
   
   #myBtn:hover {

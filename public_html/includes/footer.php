@@ -30,7 +30,7 @@
 
 
 
-<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button> 
+<button onclick="topFunction()" id="myBtn" title="Go to top">^</button> 
 
 <script>
 // Get the button

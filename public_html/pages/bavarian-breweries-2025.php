@@ -119,7 +119,7 @@ $keywords = "page1, example, template";
             </div>
             <div class="col-md-6">
                 <div class="seplg"></div>
-                <img src="/assets/images/bamberg-city-hall.jpg" alt="Bamberg City Hall" class=""w100>
+                <img src="/assets/images/bamberg-city-hall.jpg" alt="Bamberg City Hall" class="w100">
             </div>
         </div>
     </div>
