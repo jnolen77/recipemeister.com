@@ -35,7 +35,7 @@ $keywords = "Germany travel, German food tours, Brewery tours in Germany, German
     <div class="col-md-3"></div>
     <div class="row tac">
         <div class="col-md-6">
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSex-8YGE3hlEqJRvqDtGDRFksH2837k7kgkDgDIbEAZRZmXQA/viewform?embedded=true" width="640" height="959" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        <script src="https://www.cognitoforms.com/f/seamless.js" data-key="OI_LzSWKxkCZJEPTm45_yQ" data-form="1"></script>
         </div>
     </div>
     <div class="col-md-3"></div>
