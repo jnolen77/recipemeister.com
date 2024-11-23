@@ -58,5 +58,6 @@ include __DIR__ . '/../config/classes.php';
                 <div class="mobile-title" style="padding: 0px 10px;display:flex;;font-size:22px;color:black;text-align:left;">Savor Germany</div> 
                 <div class="hamburger-menu" style="padding-left:150px;display:flex;"><img src="/assets/images/hamburger-icon.svg" alt="hamburger icon" style="width:40px;"> </div>
             </span>
-                
+    
+             
             
