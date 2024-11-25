@@ -864,6 +864,9 @@ input, textarea {
     display: none;
   }
 
-  .hidden-mobile {
-    display: none;
-  }
+@media (max-width: 768px) {
+    .hidden-mobile {
+        display: none;
+      }
+    
+}
