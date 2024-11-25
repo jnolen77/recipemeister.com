@@ -54,8 +54,8 @@ $keywords = "page1, example, template";
                         <p><strong>$3,225*</strong> - for solo travel</p>
                         <p>* Price subject to change based on total number of guests.</p>
             </div>
-            <div class="col-md-2"></div>
-            <div class="col-md-4">
+            <div class="col-md-1"></div>
+            <div class="col-md-5">
                 <div class="sepxl"></div>
                 <div class="seplg"></div>
                 <div>
