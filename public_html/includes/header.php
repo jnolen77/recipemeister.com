@@ -109,5 +109,8 @@ include __DIR__ . '/../config/classes.php';
                 <div class="hamburger-menu" style="padding-left:150px;display:flex;"><img src="/assets/images/hamburger-icon.svg" alt="hamburger icon" style="width:40px;"> </div>
             </span>
     
-    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>            
+            <button onclick="topFunction()" id="myBtn" title="Go to top">
+    <img src="/assets/images/angle-up-solid.png" alt="Go to top" id="angle-up" />
+</button>
+           
             

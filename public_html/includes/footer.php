@@ -29,9 +29,6 @@
 <script src="/../assets/js/scripts.js"></script>
 
 
-
-<button onclick="topFunction()" id="myBtn" title="Go to top">^</button> 
-
 <script>
 // Get the button
 let mybutton = document.getElementById("myBtn");
