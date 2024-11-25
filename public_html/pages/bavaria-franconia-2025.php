@@ -96,9 +96,9 @@ $keywords = "page1, example, template";
         <p>Munich in the spring is a celebration of Bavarian warmth and hospitality. The city's famous beer gardens begin to reopen as locals and visitors flock to iconic spots like the Englischer Garten and Viktualienmarkt to enjoy the fresh air, local brews, and hearty Bavarian dishes. Springtime brings fresh asparagus, or “Spargel,” to menus, celebrated in simple, delicious dishes that highlight the quality of local produce. White asparagus, in particular, is a seasonal favorite in Bavaria and pairs beautifully with hollandaise sauce and local meats. These spring foods are best enjoyed under the chestnut trees of a beer garden, where the social aspect of Bavarian dining shines as friends and strangers gather at long tables to share in the festivities.</p>
         <p>Beyond the beer gardens, Munich also embraces spring with lively events, such as Frühlingsfest, or “Spring Festival,” which is often called the “Little Oktoberfest.” Held at the Theresienwiese fairgrounds, Frühlingsfest showcases Munich's love for celebration with rides, traditional Bavarian music, and, of course, beer tents. Here, visitors can experience the jovial spirit of Bavarian festivals without the immense crowds of Oktoberfest, making it a perfect way to enjoy the city's vibrant culture in a more relaxed setting. Strolling through Munich in the spring, one can truly feel the city's pulse—its rich history, its love for seasonal food, and its unwavering sense of community, all coming together in a celebration of Bavarian life.</p>
 
-    
     </div>
-    <div class="col-md-6">
+    <div class="col-md-1"></div>
+    <div class="col-md-5">
         <div class="seplg"></div>
         <img src="/assets/images/munich-skyline.jpg" alt="Munich" class="w100">
     </div>
@@ -117,7 +117,8 @@ $keywords = "page1, example, template";
                 <p>Bamberg, a UNESCO World Heritage site, adds another dimension to Franconian culture with its distinctive beers and charming riverfront architecture. Bamberg is famous for its smoked beer, or Rauchbier, a unique brew with a deep, smoky flavor created by smoking the malt over an open flame. This tradition dates back centuries, and Bamberg remains one of the few places in the world where this style is preserved. In addition to its breweries, Bamberg is a city of beautiful medieval and baroque architecture, with winding alleys and the iconic half-timbered Altes Rathaus perched on an island in the Regnitz River. Here, the culinary and cultural experiences intermingle, inviting visitors to slow down, sip a beer, and savor the unique flavors and stories of Franconia.</p>
                 
             </div>
-            <div class="col-md-6">
+            <div class="col-md-1"></div>
+            <div class="col-md-5">
                 <div class="seplg"></div>
                 <img src="/assets/images/bamberg-city-hall.jpg" alt="Bamberg City Hall" class="w100">
             </div>
@@ -131,9 +132,9 @@ $keywords = "page1, example, template";
                 <h3 class="tac">Our tour starts in the heart of Bavaria - Munich, before venturing on to the Franconian region where we will experience the best beer in the region.</h3>
             </div>
             <div class="sepmd"></div>
-            <div class="col-md-12 tac">
+            
                 <img src="/assets/images/augustiner-beergarden.jpg" alt="Augustiner Beer Garden" class="w100">
-            </div>
+            
         </div>
     </div>
 </section>
