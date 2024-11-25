@@ -125,6 +125,8 @@ $keywords = "page1, example, template";
         </div>
     </div>
 </section>
+
+
 <section class="page">
     <div class="page-content">
         <div class="row">
