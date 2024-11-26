@@ -335,11 +335,12 @@ h2 {
 .button {
     background-color: #f8b400;
     color: #333;
-    border-radius: 15px;
-    padding: 20px;
+    border-radius: 50px;
+    padding: 7px 30px;
     text-decoration: none;
     display: inline-flex;
     text-shadow: none !important;
+    font-size: 1.2rem !important;
 }
 .button:hover {
     background-color: #f1cd01;
