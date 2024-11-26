@@ -71,6 +71,11 @@ header .menu-items {
     transition: 0.6s !important;
 }
 
+header .menu-icons {
+    color: #fff !important;
+    text-decoration: none;
+}
+
 header .dropdown-menu-items {
     position: relative;
     font-weight: 700;

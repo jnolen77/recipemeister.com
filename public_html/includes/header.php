@@ -65,10 +65,10 @@ include __DIR__ . '/../config/classes.php';
                 <a href="/gallery" class="menu-items">Gallery</a>
                 <a href="/your-hosts" class="menu-items">Your Hosts</a>
                 <a href="/contact-us" class="menu-items">Contact</a>
-                <a href="https://facebook.com/savorgermany" target="_blank" ><i class="fa-brands fa-facebook"></i></a>
-                <a href="https://instagram.com/savorgermany" target="_blank" ><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://tiktok.com/savorgermany" target="_blank" ><i class="fa-brands fa-tiktok"></i></a>
-                <a href="https://youtube.com/savorgermany" target="_blank" ><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://facebook.com/savorgermany" target="_blank" ><i class="fa-brands fa-facebook "></i></a>
+                <a href="https://instagram.com/savorgermany" target="_blank" ><i class="fa-brands fa-instagram "></i></a>
+                <a href="https://tiktok.com/savorgermany" target="_blank" ><i class="fa-brands fa-tiktok "></i></a>
+                <a href="https://youtube.com/savorgermany" target="_blank" ><i class="fa-brands fa-youtube "></i></a>
         </div>
             
            
