@@ -31,7 +31,7 @@ $keywords = "page1, example, template";
     <div class="page-content">
         <div class="row">
             <div class="col-md-6">
-            <h2 style="color:#000;">Bavaria & Franconia plus Springfest in Munich</h2>
+            <h2>Bavaria & Franconia plus Springfest in Munich</h2>
             <div class="sepmd"></div>
             <h3>April 26th - May 5th 2025</h3>
             <div class="sepsm"></div>
