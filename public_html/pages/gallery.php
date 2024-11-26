@@ -16,9 +16,9 @@ $keywords = "page1, example, template";
     });
 </script>
 
-<section class="video-container">
-<section class="">
-    
+
+<div class="row">
+    <div class="col-12">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -27,13 +27,19 @@ $keywords = "page1, example, template";
         </ol>
                 <div class="carousel-inner">
             <div class="carousel-item active">
-            <img class="d-block w-100" src="/assets/images/marienplatz-focal.jpg" alt="First slide">
+            <img class="d-block w-100" src="/assets/images/andechs-monastery.jpg" alt="Andechs Monastery">
             </div>
             <div class="carousel-item">
-            <img class="d-block w-100" src="/assets/images/munich-skyline.jpg" alt="Second slide">
+            <img class="d-block w-100" src="/assets/images/rathaus-bamberg.jpg" alt="Bamberg Rathaus">
             </div>
             <div class="carousel-item">
-            <img class="d-block w-100" src="/assets/images/bamberg-city-hall.jpg" alt="Third slide">
+            <img class="d-block w-100" src="/assets/images/munich-meat-market.jpg" alt="Munich Meat Market">
+            </div>
+            <div class="carousel-item">
+            <img class="d-block w-100" src="/assets/images/pretzels-beer.jpg" alt="Pretzels and Beer">
+            </div>
+            <div class="carousel-item">
+            <img class="d-block w-100" src="/assets/images/roast-pork.jpg" alt="Roast Pork">
             </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -45,12 +51,8 @@ $keywords = "page1, example, template";
                 <span class="sr-only">Next</span>
             </a>
         </div>
-        
-        
-</section>
-</section>
-
-   
+    </div>
+</div>   
 
 
 
