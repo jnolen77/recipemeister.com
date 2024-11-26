@@ -64,6 +64,9 @@ window.addEventListener("scroll", function(){
     header.classList.toggle("sticky", window.scrollY > 0);
 });
 
+/* contact form script */
+
+
 
 let mybutton = document.getElementById("myBtn");
 
@@ -83,4 +86,3 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
-
