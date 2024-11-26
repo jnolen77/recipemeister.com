@@ -262,6 +262,11 @@ header.sticky ul li a {
     color: #000 !important;
 }
 
+header.sticky .menu-icons,
+header.sticky ul li a {
+    color: #000 !important;
+}
+
 header.sticky .menu-items,
 header.sticky ul li a {
     color: #000 !important;
