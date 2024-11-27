@@ -60,7 +60,7 @@ $keywords = "page1, example, template";
         <a href="/bavaria-franconia-2025" class="button hidden-mobile" style="font-size: 1.6rem;">Register Your Spot Today</a>
     </div>
 </div>
-<div class="sepmd hidden-mobile"></div>
+        <div class="sepmd hidden-mobile"></div>
     <div class="constrain">
         <div class="row">
             <div class="col-md-12 tac">
@@ -80,15 +80,16 @@ $keywords = "page1, example, template";
         
     </div>
     <div class="container">
-    <div class="row">
-        <div class="col-md-12 tac">
-        <div id="fd-form-6672feb8d8e8af728f2b106d"></div>
-            <script>
-                window.fd('form', {
-                    formId: '6672feb8d8e8af728f2b106d',
-                    containerEl: '#fd-form-6672feb8d8e8af728f2b106d'
-                });
-            </script>
+        <div class="row">
+            <div class="col-md-12 tac">
+            <div id="fd-form-6672feb8d8e8af728f2b106d"></div>
+                <script>
+                    window.fd('form', {
+                        formId: '6672feb8d8e8af728f2b106d',
+                        containerEl: '#fd-form-6672feb8d8e8af728f2b106d'
+                    });
+                </script>
+            </div>
         </div>
     </div>
 
