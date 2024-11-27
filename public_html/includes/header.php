@@ -51,28 +51,40 @@ include __DIR__ . '/../config/classes.php';
     
     <body>
     <header class="d-none d-lg-block custom-header">
-        <div class="header-content">
-                <a href="https://recipemeister.com" class="logo">Savor Germany</a>
-                <div style="width:250px;"></div>
-                    <div class="dropdown">
-                        <div class="dropbtn"><a href="https://recipemeister.com" class="menu-items">2025 Tours</a></div>
-                        <div class="dropdown-content">
-                            <a href="/bavaria-franconia-2025" class="dropdown-menu-items">Bavaria & Franconia 2025</a>
-                            <a href="/oktoberfest-2025" class="dropdown-menu-items">Oktoberfest Munich 2025</a>
-                            <a href="/oktoberfest-beyond-2025" class="dropdown-menu-items">Oktoberfest & Beyond 2025</a>
-                        </div>
+    <div class="header-container">
+        <!-- Logo aligned to the far left, outside the sticky header -->
+        <div class="logo-container">
+            <a href="https://recipemeister.com" class="logo">
+                <img src="/assets/images/sg-logo-hdr.png" alt="Savor Germany">
+            </a>
+        </div>
+
+        <!-- Links and social media aligned to the right -->
+        <div class="nav-social-container">
+            <div class="nav-links">
+                <div class="dropdown">
+                    <a href="https://recipemeister.com" class="menu-items dropbtn">2025 Tours</a>
+                    <div class="dropdown-content">
+                        <a href="/bavaria-franconia-2025" class="dropdown-menu-items">Bavaria & Franconia 2025</a>
+                        <a href="/oktoberfest-2025" class="dropdown-menu-items">Oktoberfest Munich 2025</a>
+                        <a href="/oktoberfest-beyond-2025" class="dropdown-menu-items">Oktoberfest & Beyond 2025</a>
                     </div>
+                </div>
                 <a href="/gallery" class="menu-items">Gallery</a>
                 <a href="/your-hosts" class="menu-items">Your Hosts</a>
                 <a href="/contact-us" class="menu-items">Contact</a>
-                <a href="https://facebook.com/savorgermany" target="_blank" class="menu-icons"><i class="fa-brands fa-facebook "></i></a>
-                <a href="https://instagram.com/savorgermany" target="_blank" class="menu-icons"><i class="fa-brands fa-instagram "></i></a>
-                <a href="https://tiktok.com/savorgermany" target="_blank" class="menu-icons"><i class="fa-brands fa-tiktok "></i></a>
-                <a href="https://youtube.com/savorgermany" target="_blank" class="menu-icons"><i class="fa-brands fa-youtube "></i></a>
+            </div>
+
+            <div class="social-media-icons">
+                <a href="https://facebook.com/savorgermany" target="_blank" class="menu-icons"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://instagram.com/savorgermany" target="_blank" class="menu-icons"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://tiktok.com/savorgermany" target="_blank" class="menu-icons"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="https://youtube.com/savorgermany" target="_blank" class="menu-icons"><i class="fa-brands fa-youtube"></i></a>
+            </div>
         </div>
-            
-           
-    </header>
+    </div>
+</header>
+
 
         
             <!--Mobile Navbar-->
