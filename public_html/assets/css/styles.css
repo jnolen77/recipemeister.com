@@ -4,6 +4,9 @@
     outline: none;
     box-sizing: border-box;
 }
+html {
+    scroll-padding-top: 100px; 
+}
 
 body {
     font-family: 'Open Sans' sans-serif;
@@ -14,8 +17,21 @@ body {
     display: flex;
     flex-direction: column;
 }
+body a {
+    text-decoration: none;
+    color:#dd9933;
+}
+body a:hover {
+    color: #e48c08;
+}
 p {
     font-family: 'Poppins', sans-serif;
+}
+#page-links {
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 50px;
 }
 
 .title {

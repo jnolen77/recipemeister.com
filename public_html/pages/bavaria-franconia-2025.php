@@ -66,7 +66,7 @@ $keywords = "page1, example, template";
                     <i class="fa-solid fa-person-walking-luggage" style="margin-right: 10px;"></i> <strong>Activity Level</strong> 3 - Moderate walking involved. <br />
                     <i class="fa-solid fa-train" style="margin-right: 10px;"></i> <strong>Travel Style</strong> Combination of trains and walking. <br />
                 </div>
-            <div class="sepxl"></div>
+                <div class="sepxl"></div>
                 <div class="shadow-box">
                     
                     <h4>Your Tour Includes</h4>
@@ -84,47 +84,17 @@ $keywords = "page1, example, template";
         </div>
     </div>
 </section>
-
-
-<section class="page">
-    <div class="page-content">
-    <div class="row">
-    <div class="col-md-6">
-        <h2 class="tal" style="color: #000;">A Little About Bavaria</h2>
-        <div class="sepsm"></div>
-        <p>Bavaria's heart and soul lie in its diverse landscapes, historic cities, and a culture deeply intertwined with its food and drink traditions. As the largest state in Germany, Bavaria encompasses much more than the Franconian region to the north; it is also home to alpine landscapes, lush forests, and lively cities, each with its own distinct identity. At the forefront of Bavarian culture is Munich, the capital city, which captures Bavaria's traditions and modernity in equal measure. Visiting Munich in the spring offers a unique perspective on Bavarian life, as the city shakes off the winter chill and welcomes warmer days with open-air festivals, beer gardens, and outdoor markets.</p>
-        <p>Munich in the spring is a celebration of Bavarian warmth and hospitality. The city's famous beer gardens begin to reopen as locals and visitors flock to iconic spots like the Englischer Garten and Viktualienmarkt to enjoy the fresh air, local brews, and hearty Bavarian dishes. Springtime brings fresh asparagus, or “Spargel,” to menus, celebrated in simple, delicious dishes that highlight the quality of local produce. White asparagus, in particular, is a seasonal favorite in Bavaria and pairs beautifully with hollandaise sauce and local meats. These spring foods are best enjoyed under the chestnut trees of a beer garden, where the social aspect of Bavarian dining shines as friends and strangers gather at long tables to share in the festivities.</p>
-        <p>Beyond the beer gardens, Munich also embraces spring with lively events, such as Frühlingsfest, or “Spring Festival,” which is often called the “Little Oktoberfest.” Held at the Theresienwiese fairgrounds, Frühlingsfest showcases Munich's love for celebration with rides, traditional Bavarian music, and, of course, beer tents. Here, visitors can experience the jovial spirit of Bavarian festivals without the immense crowds of Oktoberfest, making it a perfect way to enjoy the city's vibrant culture in a more relaxed setting. Strolling through Munich in the spring, one can truly feel the city's pulse—its rich history, its love for seasonal food, and its unwavering sense of community, all coming together in a celebration of Bavarian life.</p>
-
-    </div>
-    <div class="col-md-1"></div>
-    <div class="col-md-5">
-        <div class="seplg"></div>
-        <img src="/assets/images/munich-skyline.jpg" alt="Munich" class="w100">
-    </div>
-</div>
-    </div>
-</section>
-
 <section class="page">
     <div class="page-content">
         <div class="row">
-            <div class="col-md-6">
-                <h2 class="tal" style="color: #000">Franconia</h2>
-                <div class="sepsm"></div>
-                <p>Franconia, a picturesque region in northern Bavaria, boasts a culinary and cultural landscape distinct from the rest of Germany. Known for its rolling vineyards, medieval towns, and vibrant traditions, Franconia offers a unique blend of flavors and experiences. From hearty dishes to artisan beers, this area is steeped in culinary heritage, deeply influenced by its agricultural roots and historical context. As one travels through Franconia, the region's dedication to its traditions is evident not only in the food but in the architecture, festivals, and warm hospitality of its people.</p>
-                <p>Nuremberg, the largest city in Franconia, is a prime destination for food enthusiasts and history buffs alike. Famous for its Nürnberger Rostbratwurst, these small sausages have a unique flavor that is beloved both locally and internationally. Typically served with sauerkraut or potato salad, they reflect the rustic, comforting cuisine characteristic of the region. Beyond its culinary delights, Nuremberg is rich in medieval architecture, from the imposing Nuremberg Castle to the charming old town squares, where open-air markets bustle with local produce, artisanal bread, and sweets. The city's blend of medieval and modern elements creates a vibrant backdrop for exploring Franconian traditions.</p>
-                <p>Bamberg, a UNESCO World Heritage site, adds another dimension to Franconian culture with its distinctive beers and charming riverfront architecture. Bamberg is famous for its smoked beer, or Rauchbier, a unique brew with a deep, smoky flavor created by smoking the malt over an open flame. This tradition dates back centuries, and Bamberg remains one of the few places in the world where this style is preserved. In addition to its breweries, Bamberg is a city of beautiful medieval and baroque architecture, with winding alleys and the iconic half-timbered Altes Rathaus perched on an island in the Regnitz River. Here, the culinary and cultural experiences intermingle, inviting visitors to slow down, sip a beer, and savor the unique flavors and stories of Franconia.</p>
-                
-            </div>
-            <div class="col-md-1"></div>
-            <div class="col-md-5">
-                <div class="seplg"></div>
-                <img src="/assets/images/bamberg-city-hall.jpg" alt="Bamberg City Hall" class="w100">
+            <div class="col-md-12">
+                <div><a href="#bavaria" id="page-links">Read More About Bavaria</a> <a href="#franconia" id="page-links">Read More About Franconia</a></div>
             </div>
         </div>
     </div>
 </section>
+
+
 
 
 <section class="page">
@@ -280,11 +250,50 @@ $keywords = "page1, example, template";
                 <div class="sepsm"></div>
                 <p class="tal">As we head to the airport for our flights back to the U.S., there's just enough time to enjoy one last taste of Bavaria. Many of us gather at the airport bar to savor a traditional Bavarian breakfast—soft pretzels, white sausages with sweet mustard, and, for those inclined, a refreshing wheat beer. It's a perfect, simple way to wrap up our time here and soak in a final bit of Bavarian flavor.</p>
                 <p class="tal">With flights usually departing in mornings, there's little time for anything else, but the memories of this past week will stay with us. From the lively beer gardens to the historic streets of Bamberg and Nuremberg, each experience has brought us closer to the heart of Germany. We hope you'll return someday to explore even more of this wonderful country. Safe travels, and we look forward to the day we can say “Willkommen zurück!”</p>
-                
+        
             </div>
         </div>
     </div>
 </section>
 
+<section class="page"   id="bavaria">
+    <div class="page-content">
+    <div class="row">
+    <div class="col-md-6">
+        <h2 class="tal" style="color: #000;">A Little About Bavaria</h2>
+        <div class="sepsm"></div>
+        <p>Bavaria's heart and soul lie in its diverse landscapes, historic cities, and a culture deeply intertwined with its food and drink traditions. As the largest state in Germany, Bavaria encompasses much more than the Franconian region to the north; it is also home to alpine landscapes, lush forests, and lively cities, each with its own distinct identity. At the forefront of Bavarian culture is Munich, the capital city, which captures Bavaria's traditions and modernity in equal measure. Visiting Munich in the spring offers a unique perspective on Bavarian life, as the city shakes off the winter chill and welcomes warmer days with open-air festivals, beer gardens, and outdoor markets.</p>
+        <p>Munich in the spring is a celebration of Bavarian warmth and hospitality. The city's famous beer gardens begin to reopen as locals and visitors flock to iconic spots like the Englischer Garten and Viktualienmarkt to enjoy the fresh air, local brews, and hearty Bavarian dishes. Springtime brings fresh asparagus, or “Spargel,” to menus, celebrated in simple, delicious dishes that highlight the quality of local produce. White asparagus, in particular, is a seasonal favorite in Bavaria and pairs beautifully with hollandaise sauce and local meats. These spring foods are best enjoyed under the chestnut trees of a beer garden, where the social aspect of Bavarian dining shines as friends and strangers gather at long tables to share in the festivities.</p>
+        <p>Beyond the beer gardens, Munich also embraces spring with lively events, such as Frühlingsfest, or “Spring Festival,” which is often called the “Little Oktoberfest.” Held at the Theresienwiese fairgrounds, Frühlingsfest showcases Munich's love for celebration with rides, traditional Bavarian music, and, of course, beer tents. Here, visitors can experience the jovial spirit of Bavarian festivals without the immense crowds of Oktoberfest, making it a perfect way to enjoy the city's vibrant culture in a more relaxed setting. Strolling through Munich in the spring, one can truly feel the city's pulse—its rich history, its love for seasonal food, and its unwavering sense of community, all coming together in a celebration of Bavarian life.</p>
+
+    </div>
+    <div class="col-md-1"></div>
+    <div class="col-md-5">
+        <div class="seplg"></div>
+        <img src="/assets/images/munich-skyline.jpg" alt="Munich" class="w100">
+    </div>
+</div>
+    </div>
+</section>
+
+<section class="page"   id="franconia">
+    <div class="page-content">
+        <div class="row">
+            <div class="col-md-6">
+                <h2 class="tal" style="color: #000">Franconia</h2>
+                <div class="sepsm"></div>
+                <p>Franconia, a picturesque region in northern Bavaria, boasts a culinary and cultural landscape distinct from the rest of Germany. Known for its rolling vineyards, medieval towns, and vibrant traditions, Franconia offers a unique blend of flavors and experiences. From hearty dishes to artisan beers, this area is steeped in culinary heritage, deeply influenced by its agricultural roots and historical context. As one travels through Franconia, the region's dedication to its traditions is evident not only in the food but in the architecture, festivals, and warm hospitality of its people.</p>
+                <p>Nuremberg, the largest city in Franconia, is a prime destination for food enthusiasts and history buffs alike. Famous for its Nürnberger Rostbratwurst, these small sausages have a unique flavor that is beloved both locally and internationally. Typically served with sauerkraut or potato salad, they reflect the rustic, comforting cuisine characteristic of the region. Beyond its culinary delights, Nuremberg is rich in medieval architecture, from the imposing Nuremberg Castle to the charming old town squares, where open-air markets bustle with local produce, artisanal bread, and sweets. The city's blend of medieval and modern elements creates a vibrant backdrop for exploring Franconian traditions.</p>
+                <p>Bamberg, a UNESCO World Heritage site, adds another dimension to Franconian culture with its distinctive beers and charming riverfront architecture. Bamberg is famous for its smoked beer, or Rauchbier, a unique brew with a deep, smoky flavor created by smoking the malt over an open flame. This tradition dates back centuries, and Bamberg remains one of the few places in the world where this style is preserved. In addition to its breweries, Bamberg is a city of beautiful medieval and baroque architecture, with winding alleys and the iconic half-timbered Altes Rathaus perched on an island in the Regnitz River. Here, the culinary and cultural experiences intermingle, inviting visitors to slow down, sip a beer, and savor the unique flavors and stories of Franconia.</p>
+                
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-5">
+                <div class="seplg"></div>
+                <img src="/assets/images/bamberg-city-hall.jpg" alt="Bamberg City Hall" class="w100">
+            </div>
+        </div>
+    </div>
+</section>
 
 <?php include __DIR__ . '/../includes/footer.php'; ?>
