@@ -21,14 +21,14 @@ $keywords = "Germany travel, German food tours, Brewery tours in Germany, German
             Your browser does not support the video tag.
             </video>
         <div class="overlay-text">
-            <h1>Savor Germany</h1>
+            <h1 style="font-size: 60px; font-weight:800;">Savor Germany</h1>
                 <h2>Experience the food, beer, & wine of Germany with two acclaimed chefs</h2>
                 <div class="seplg hidden-mobile"></div>
                 <a href="/bavaria-franconia-2025" class="button hidden-mobile">Discover Your Next Adventure</a>
         </div>
         
     </div>
-<div class="seplg hidden-mobile"></div>
+    <div class="seplg hidden-mobile"></div>
     <div class="constrain">
         <div class="row">
             <div class="col-md-12 tac">
@@ -51,12 +51,12 @@ $keywords = "Germany travel, German food tours, Brewery tours in Germany, German
     <div class="row">
         <div class="col-md-12 tac">
         <div id="fd-form-6672feb8d8e8af728f2b106d"></div>
-<script>
-  window.fd('form', {
-    formId: '6672feb8d8e8af728f2b106d',
-    containerEl: '#fd-form-6672feb8d8e8af728f2b106d'
-  });
-</script>
+            <script>
+                window.fd('form', {
+                    formId: '6672feb8d8e8af728f2b106d',
+                    containerEl: '#fd-form-6672feb8d8e8af728f2b106d'
+                });
+            </script>
         </div>
     </div>
 </div>

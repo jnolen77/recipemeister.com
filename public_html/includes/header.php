@@ -78,7 +78,7 @@ include __DIR__ . '/../config/classes.php';
             <div class="social-media-icons">
                 <a href="https://facebook.com/savorgermany" target="_blank" class="menu-icons"><i class="fa-brands fa-facebook"></i></a>
                 <a href="https://instagram.com/savorgermany" target="_blank" class="menu-icons"><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://tiktok.com/savorgermany" target="_blank" class="menu-icons"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="https://www.tiktok.com/@savor.germany" target="_blank" class="menu-icons"><i class="fa-brands fa-tiktok"></i></a>
                 <a href="https://youtube.com/savorgermany" target="_blank" class="menu-icons"><i class="fa-brands fa-youtube"></i></a>
             </div>
         </div>

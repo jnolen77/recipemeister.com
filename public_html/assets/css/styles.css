@@ -514,23 +514,22 @@ h2 {
     margin-left: 50px;
   }
 /* new mobile menu styles */
-  ul{
-    list-style:none;
-  }
-  .mobile-menu-list>li {
-      border-bottom: 1px solid #2e3f52;
+
+.mobile-menu-list>li {
+    border-bottom: 1px solid #2e3f52;
     cursor:pointer;
+    list-style: none;
   }
   
-  .mobile-menu-list li a {
-      color: white !important;
-      display: block;
-      width: inherit;
-      position: relative;
-      line-height: 20px;
-      height: 40px;
-      padding: 10px;
-      transition: all .51s ease;
+.mobile-menu-list li a {
+    color: white !important;
+    display: block;
+    width: inherit;
+    position: relative;
+    line-height: 20px;
+    height: 40px;
+    padding: 10px;
+    transition: all .51s ease;
   }
   .mobile-menu-box{
     background-color: #28394A;

@@ -22,7 +22,7 @@ $keywords = "page1, example, template";
             Your browser does not support the video tag.
             </video>
         <div class="overlay-text">
-            <h1>Bavaria & Franconia plus Springfest in Munich</h1>
+            <h1>Beer & Food Lover's Tour of Bavaria & Franconia plus Springfest in Munich</h1>
                 
         </div>
     </div>
@@ -31,7 +31,7 @@ $keywords = "page1, example, template";
     <div class="page-content">
         <div class="row">
             <div class="col-md-6">
-            <h2>Bavaria & Franconia plus Springfest in Munich</h2>
+            <h2>Beer & Food Lover's Tour Bavaria & Franconia plus Springfest in Munich</h2>
             <div class="sepmd"></div>
             <h3>April 26th - May 5th 2025</h3>
             <div class="sepsm"></div>
@@ -61,10 +61,10 @@ $keywords = "page1, example, template";
                 <div>
                     <h4>Your Tour at a Glance</h4>
                     <div class="sepsm"></div>
-                    <strong>Stay</strong> 9 Days 8 Nights <br />
-                    <strong>Meals</strong> 13 Meals 7 Breakfasts | 5 Lunches | 5 Dinners <br />
-                    <strong>Activity Level</strong> 3 - Moderate walking involved. <br />
-                    <strong>Travel Style</strong> Combination of trains and walking. <br />
+                    <i class="fa-solid fa-bed" style="margin-right: 10px;"></i>  <strong>Stay</strong> 9 Days 8 Nights <br />
+                    <i class="fa-solid fa-utensils" style="margin-right: 10px;"></i> <strong>Meals</strong> 13 Meals 7 Breakfasts | 5 Lunches | 5 Dinners <br />
+                    <i class="fa-solid fa-person-walking-luggage" style="margin-right: 10px;"></i> <strong>Activity Level</strong> 3 - Moderate walking involved. <br />
+                    <i class="fa-solid fa-train" style="margin-right: 10px;"></i> <strong>Travel Style</strong> Combination of trains and walking. <br />
                 </div>
             <div class="sepxl"></div>
                 <div class="shadow-box">
