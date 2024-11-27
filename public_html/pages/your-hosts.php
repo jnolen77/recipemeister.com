@@ -1,12 +1,12 @@
 <?php
 include __DIR__ . '/../config/config.php'; 
-include __DIR__ . '/../includes/header.php';
-
 $title = "$website" . " - Page 1";
 $description = "This is the description for Page 1.";
 $keywords = "page1, example, template";
 ?>
-
+<?php
+    include __DIR__ . '/../includes/header.php';
+?>
 
 <script type="text/javascript">
     window.addEventListener("scroll", function(){
@@ -20,7 +20,8 @@ $keywords = "page1, example, template";
         </div>
     </section>
 
-    <div class="constrain">
+    <section class="page">
+        <div class="page-content">
         <div class="seplg"></div>
         <div class="row">
             <div class="col-md-6 tac">
@@ -47,7 +48,8 @@ $keywords = "page1, example, template";
                 <img src="/assets/images/jessica-portrait.jpg" alt="Jessica Portrait" class="tac" style="width:325px; height:auto; margin-top:50px;">
             </div>
         </div>
-    </div>
+        </div>
+    </section>
 
 
 <?php include __DIR__ . '/../includes/footer.php'; ?>

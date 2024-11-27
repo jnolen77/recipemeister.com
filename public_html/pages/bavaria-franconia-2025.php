@@ -58,7 +58,7 @@ $keywords = "page1, example, template";
             <div class="col-md-5">
                 <div class="sepxl"></div>
                 <div class="seplg"></div>
-                <div>
+                <div class="shadow-box">
                     <h4>Your Tour at a Glance</h4>
                     <div class="sepsm"></div>
                     <i class="fa-solid fa-bed" style="margin-right: 10px;"></i>  <strong>Stay</strong> 9 Days 8 Nights <br />
