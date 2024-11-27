@@ -11,7 +11,7 @@ html {
 body {
     font-family: 'Open Sans' sans-serif;
     overflow-x: hidden;
-    background: #f8f8e5;
+    background: #f8f8e5 !important;
     min-height: 100vh; 
     margin: 0;
     display: flex;
@@ -31,9 +31,12 @@ p {
     font-size: 20px;
     font-weight: 500;
     text-transform: uppercase;
-    margin: 50px;
+    margin: 15px;
+    transition: 0.8s;
 }
-
+#page-links:hover {
+    color:#000;
+}
 .title {
     color: #ffffff;
     font-family: "Georgia", Sans-serif;
@@ -346,6 +349,42 @@ h2 {
     color: #fff !important;
     text-shadow: none !important;
 }
+
+/* Sticky menu */
+
+    /* Sticky header */
+    .sticky-top {
+        position: sticky;
+        top: 0;
+        z-index: 1030; /* Ensure it stays above other content */
+        height: 60px;
+    }
+.sticky-top h1 {
+    font-size: 55px;
+    font-weight: 800;
+}
+    /* Sticky menu */
+    .my-menu-row .menu.sticky {
+        position: fixed;
+        top: 0;
+        z-index: 1020; /* Ensures it sits below the header */
+        width: 61%; /* Spans the full container width */
+        top: 60px;
+    }
+.sticky-menu {
+    background-color: #dd9933;
+    height: 50px;
+}
+.sticky-menu a {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.st-menu-content {
+    padding: 0 25px;
+}
+
 
 /* Footer styles */
 .footer {

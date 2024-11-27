@@ -18,7 +18,13 @@
         <li><a href="mailto:info@savorgermany.com" class="footer-link">info@savorgermany.com</a></li>
         <li><a href="tel:2672165877" class="footer-link">(267) 216-5877</a></li>
     </div>
-    
+    <div class="footer-column tac">
+        <h3>Useful Links</h3>
+        <ul>
+            <li><a href="/privacy-policy" class="footer-link">Privacy Policy</a></li>
+            <li><a href="/terms-conditions" class="footer-link">Terms & Conditions</a></li>
+        </ul>
+    </div>
 </footer>
 
 
