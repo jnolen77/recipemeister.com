@@ -86,3 +86,24 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+document.addEventListener('DOMContentLoaded', function () {
+    const popup = document.getElementById('flodesk-popup');
+    const closeButton = document.getElementById('close-popup');
+    let popupShown = false; // Prevents showing the popup multiple times
+
+    function handleScroll() {
+        if (!popupShown && window.scrollY > 100) { // Adjust the scroll threshold as needed
+            popup.classList.add('visible');
+            popupShown = true;
+        }
+    }
+
+    // Close popup event
+    closeButton.addEventListener('click', function () {
+        popup.classList.remove('visible');
+    });
+
+    // Show popup on scroll
+    window.addEventListener('scroll', handleScroll);
+});
