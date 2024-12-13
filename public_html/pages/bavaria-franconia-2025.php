@@ -50,8 +50,8 @@ $keywords = "page1, example, template";
                         sausages, and roast chicken. Visitors enjoy the festive spirit with live music, cultural events, and fireworks 
                         displays, making it a fantastic way to experience Bavarian traditions without the Oktoberfest crowds.
                         </p>
-                        <p><strong>$2,622*</strong> - per person LAND only (based on double occupancy)</p>
-                        <p><strong>$3,225*</strong> - for solo travel</p>
+                        <p><strong>$2,922*</strong> - per person LAND only (based on double occupancy)</p>
+                        <p><strong>$3,425*</strong> - for solo travel</p>
                         <p>* Price subject to change based on total number of guests.</p>
             </div>
             <div class="col-md-1"></div>
@@ -88,7 +88,9 @@ $keywords = "page1, example, template";
     <div class="page-content">
         <div class="row">
             <div class="col-md-12">
+                <hr>
                 <div><a href="#bavaria" id="page-links">Read More About Bavaria</a> <a href="#franconia" id="page-links">Read More About Franconia</a></div>
+                <hr>
             </div>
         </div>
     </div>
